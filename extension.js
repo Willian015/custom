@@ -1,7 +1,7 @@
 (function () {
 
-    // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    // Altere isso para seu nome de usuário do GitHub para que você não precise modificar tantas coisas.
+    var fork = "Willian015";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,9 +46,9 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
-      language: "english",
-      chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+      botName: "testeBot",
+      language: "portuguese",
+      chatLink: "https://rawgit.com/Willian015/custom/master/lang/pt.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
